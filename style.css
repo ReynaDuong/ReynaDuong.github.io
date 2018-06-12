@@ -1,0 +1,60 @@
+a:hover{
+    text-decoration: underline;
+}
+
+.container {
+    text-align: center;
+    width: 600px;
+    margin-top: 220px;
+}
+
+.container p{
+    font-family: 'Dancing Script', cursive;
+    color: grey;
+}
+
+html {
+
+    background: url(nightsky.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-size: 15pt;
+    background: none;
+    padding: 10px;
+    margin: 50px;
+}
+
+h1 {
+    /*font-family: 'Handlee', cursive;*/
+    font-family: 'Overpass', sans-serif;
+    font-size: 45pt;
+    color: white;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 10px 0 10px 0;
+}
+
+.aboutMe {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.aboutMe h1{
+    font-family: 'Overpass', sans-serif;
+    font-size: 35pt;
+    color: black;
+}
+
+.skills{
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}

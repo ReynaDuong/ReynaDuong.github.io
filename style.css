@@ -55,6 +55,7 @@ body {
 h1 {
     /*font-family: 'Handlee', cursive;*/
     font-family: 'Times New Roman', sans-serif;
+    font-weight: bold;
     font-size: 45pt;
     color: black;
     text-align: center;

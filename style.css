@@ -7,12 +7,12 @@ a:hover{
     color: red;
 }
 
-.container {
+.header {
     text-align: center;
     padding-bottom: 68px;
 }
 
-.container p{
+.header p{
     font-family: 'Dancing Script', cursive;
     color: grey;
 }
@@ -55,6 +55,7 @@ body {
 h1 {
     /*font-family: 'Handlee', cursive;*/
     font-family: 'Times New Roman', sans-serif;
+    font-weight: bold;
     font-size: 45pt;
     color: black;
     text-align: center;
@@ -69,13 +70,23 @@ h2{
     text-align: center;
 }
 
+
 .aboutMe{
     padding-bottom: 38px;
 }
 
+
 .skills{
     padding-bottom: 38px;
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
 }
+
+.courses{
+    padding-bottom: 38px;
+}
+
 
 .projects{
     padding-bottom: 38px;
@@ -92,4 +103,18 @@ h2{
 
 .contact img:hover{
     transform: scale(1.5);
+}
+
+#diary{
+    height: 180px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#diary:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.2);
 }

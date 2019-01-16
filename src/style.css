@@ -1,0 +1,120 @@
+a{
+    color: indianred;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.header {
+    text-align: center;
+    padding-bottom: 68px;
+}
+
+.header p{
+    font-family: 'Dancing Script', cursive;
+    color: grey;
+}
+
+.avatar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.parallex-window{
+    min-height: 300px;
+    background: transparent;
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    height: 100px;
+    /*margin-top: 100px;*/
+    left: 50%;
+}
+
+html {
+    /*background: url(nightsky.png) no-repeat center center fixed;*/
+    /*background: transparent;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-size: 17pt;
+    background: none;
+    padding: 80px;
+    margin: 80px;
+    font-family: 'Times New Roman', sans-serif;
+    color: black;
+}
+
+h1 {
+    /*font-family: 'Handlee', cursive;*/
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: bold;
+    font-size: 45pt;
+    color: black;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 10px 0 10px 0;
+}
+
+h2{
+    padding: 38px 0 0 0;
+    color: red;
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+}
+
+
+.aboutMe{
+    padding-bottom: 38px;
+}
+
+
+.skills{
+    padding-bottom: 50px;
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.courses{
+    padding-bottom: 38px;
+}
+
+
+.projects{
+    padding-bottom: 38px;
+}
+
+.contact{
+    text-align: center;
+    padding-bottom: 38px;
+}
+
+.contact a:hover{
+    text-decoration: none;
+}
+
+.contact img:hover{
+    transform: scale(1.5);
+}
+
+#diary{
+    height: 180px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#diary:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.2);
+}

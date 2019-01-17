@@ -9,7 +9,7 @@ a:hover{
 
 .header {
     text-align: center;
-    padding-bottom: 68px;
+    padding-bottom: 100px;
 }
 
 .header p{
@@ -36,7 +36,7 @@ a:hover{
 
 html {
     /*background: url(nightsky.png) no-repeat center center fixed;*/
-    /*background: transparent;*/
+    background: whitesmoke;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

@@ -1,0 +1,31 @@
+@media screen and (min-width: 768px) {
+    body{
+        font-size: 16pt;
+        padding: 4em 4em;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body{
+        font-size: 22pt;
+        padding: 6em 10em;
+    }
+
+    .parallex-window{
+        height: 30vw;
+        margin-top: 6em;
+    }
+
+    h2{
+        font-size: 35pt;
+    }
+
+    h1{
+        font-size: 50pt;
+    }
+
+    .image{
+        width: 50%;
+    }
+
+}

@@ -1,0 +1,79 @@
+html{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 12pt;
+    font-family: 'Times New Roman', sans-serif;
+    padding: 2em 1em;
+}
+
+.header{
+    text-align: center;
+}
+
+.header p{
+    font-family: 'Dancing Script', cursive;
+}
+
+.parallex-window{
+    background: transparent;
+    width: 100vw;
+    position: relative;
+    height: 10em;
+    margin: 1em 0 1em -50vw;
+    left: 50%;
+}
+
+.icon{
+    width: 3em;
+    height: 3em;
+    margin: 0 0.5em;
+
+}
+
+img.avatar{
+    width: 50%;
+    max-width: 15em;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.image{
+    width: 90%;
+    height:auto;
+}
+
+.center-align-block{
+    display: block;
+    margin: 0 auto;
+}
+
+hr{
+    width: 50%;
+    background-color: darkgray;
+    height: 1px
+}
+
+h2{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+#skills > .container .row .col-md-6:first-child{
+    font-weight: bold;
+}
+
+#contact > div{
+    text-align: center;
+}
+
+#contact > div a{
+    display: inline-block;
+}
+
+ul{
+    width: calc(100% - 2em);
+}

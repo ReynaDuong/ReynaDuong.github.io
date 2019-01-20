@@ -1,13 +1,13 @@
 html{
-    font-size: 12pt;
-    font-family: 'Times New Roman', sans-serif;
     width: 100%;
     margin: 0;
     padding: 0;
 }
 
 body {
-    padding: 1em;
+    font-size: 12pt;
+    font-family: 'Times New Roman', sans-serif;
+    padding: 2em 1em;
 }
 
 .header{
@@ -36,7 +36,9 @@ body {
 
 img.avatar{
     width: 50%;
+    max-width: 15em;
     height: auto;
+    margin-bottom: 1em;
 }
 
 .image{
@@ -50,8 +52,9 @@ img.avatar{
 }
 
 hr{
-    color: black;
     width: 50%;
+    background-color: darkgray;
+    height: 1px
 }
 
 h2{

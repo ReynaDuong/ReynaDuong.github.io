@@ -28,4 +28,9 @@
         width: 50%;
     }
 
+    .icon{
+        width: 2em;
+        height: auto;
+    }
+
 }

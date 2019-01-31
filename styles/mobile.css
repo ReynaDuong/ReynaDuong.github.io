@@ -6,7 +6,7 @@ html{
 
 body {
     font-size: 12pt;
-    font-family: 'Times New Roman', sans-serif;
+    font-family: 'Lora', serif;
     padding: 2em 1em;
 }
 
@@ -15,7 +15,12 @@ body {
 }
 
 .header p{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Lora', serif;
+    font-style: italic;
+}
+
+h1{
+    font-family: 'Archivo Black', sans-serif;
 }
 
 .parallex-window{
@@ -58,7 +63,7 @@ hr{
 }
 
 h2{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Archivo Black', sans-serif;
     text-align: center;
 }
 

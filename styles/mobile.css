@@ -21,6 +21,7 @@ body {
 
 h1{
     font-family: 'Archivo Black', sans-serif;
+    font-size: 2em;
 }
 
 .parallex-window{
@@ -56,6 +57,12 @@ img.avatar{
     margin: 0 auto;
 }
 
+.screen{
+    width: 50%;
+    float: left;
+    padding: 0.5em;
+}
+
 hr{
     width: 50%;
     background-color: darkgray;
@@ -65,11 +72,15 @@ hr{
 h2{
     font-family: 'Archivo Black', sans-serif;
     text-align: center;
+    font-size: 1.5em;
 }
 
 #skills > .container .row .col-md-6:first-child{
     font-weight: bold;
+    font-style: italic;
 }
+
+
 
 #contact > div{
     text-align: center;

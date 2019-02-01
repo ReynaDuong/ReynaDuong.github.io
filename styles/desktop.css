@@ -5,15 +5,24 @@
     }
 }
 
-@media screen and (min-width: 1000px) {
+
+@media screen and (min-width: 1024px) {
+
+    img.avatar{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
     body{
-        font-size: 22pt;
+        font-size: 20pt;
         padding: 6em 10em;
     }
 
     .parallex-window{
         height: 30vw;
-        margin-top: 6em;
+        margin-top: 5em;
     }
 
     h2{
@@ -25,12 +34,18 @@
     }
 
     .image{
-        width: 50%;
+        width: 70%;
     }
 
     .icon{
         width: 2em;
         height: auto;
+    }
+
+    .screen{
+        width: 50%;
+        float: left;
+        padding: 0.5em;
     }
 
 }

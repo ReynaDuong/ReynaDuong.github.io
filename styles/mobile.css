@@ -97,3 +97,43 @@ h2{
 ul{
     width: calc(100% - 2em);
 }
+
+.project-wrapper {
+    width: 11rem;
+    margin: 0 auto;
+}
+
+.project-description * {
+    padding: 0;
+    margin: 0;
+    font-size: 12pt;
+}
+
+.officers {
+    position: relative;
+}
+
+.officers img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.officers img:hover ~ .external-links, .officers .external-links:hover {
+    display: inline-block;
+}
+
+.officers .external-links {
+    background: #00000066;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding-top: 40%;
+}

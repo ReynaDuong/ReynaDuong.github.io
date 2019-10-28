@@ -19,6 +19,12 @@ body {
     font-style: italic;
 }
 
+.course {
+    font-size: 12pt;
+    font-family: 'Lora', serif;
+    padding: 2em 1em;
+}
+
 h1{
     font-family: 'Archivo Black', sans-serif;
     font-size: 2em;

@@ -47,4 +47,9 @@
         padding: 0.5em;
     }
 
+    .icon{
+        width: 2em;
+        height: auto;
+    }
+
 }

@@ -109,14 +109,10 @@ ul{
     margin: 0 auto;
 }
 
-.project-description * {
+.project-description p {
     padding: 0;
     margin: 0;
-    font-size: 12pt;
-}
-
-.officers {
-    position: relative;
+    font-size: 14pt;
 }
 
 .officers img {

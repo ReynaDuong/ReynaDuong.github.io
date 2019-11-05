@@ -79,6 +79,7 @@ h2{
     font-family: 'Archivo Black', sans-serif;
     text-align: center;
     font-size: 1.5em;
+    padding-top: 1em;
 }
 
 #skills > .container .row .col-md-6:first-child{
@@ -110,6 +111,7 @@ ul{
 }
 
 .project-description p {
+    padding-top: 0.5em;
     padding-bottom: 2em;
     margin: 0;
     font-size: 14pt;

@@ -110,7 +110,7 @@ ul{
 }
 
 .project-description p {
-    padding: 0;
+    padding-bottom: 2em;
     margin: 0;
     font-size: 14pt;
 }

@@ -1,7 +1,11 @@
 @media screen and (min-width: 768px) {
     body{
-        font-size: 16pt;
+        font-size: 14pt;
         padding: 4em 4em;
+    }
+
+    .title-name {
+        font-size: 1.25rem;
     }
 }
 
@@ -10,12 +14,16 @@
     img.avatar{
         width: 30%;
     }
+
+    .title-name {
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (min-width: 1440px) {
 
     body{
-        font-size: 20pt;
+        font-size: 18pt;
         padding: 6em 6em;
     }
 
@@ -52,4 +60,7 @@
         height: auto;
     }
 
+    .title-name {
+        font-size: 2.0rem;
+    }
 }
